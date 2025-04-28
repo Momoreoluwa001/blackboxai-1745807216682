@@ -1,0 +1,19 @@
+{
+  "name": "bigcommerce-subscription-backend",
+  "version": "1.0.0",
+  "description": "Backend service for BigCommerce subscription system using Authorize.Net Accept Hosted",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^1.20.2",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
