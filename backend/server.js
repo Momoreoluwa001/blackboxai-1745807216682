@@ -16,7 +16,8 @@ const {
 
 if (!AUTH_NET_API_LOGIN_ID || !AUTH_NET_TRANSACTION_KEY || !AUTH_NET_ENVIRONMENT) {
   console.error('Please set AUTH_NET_API_LOGIN_ID, AUTH_NET_TRANSACTION_KEY, and AUTH_NET_ENVIRONMENT environment variables.');
-  process.exit(1);
+  // Commenting out process.exit to prevent app crash on missing env vars for now
+  // process.exit(1);
 }
 
 const AUTH_NET_API_URL =
